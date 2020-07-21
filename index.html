@@ -5,45 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
+  <!-- Bootstrap Script -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+
+
   <title>Frontend Mentor | Single Price Grid Component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Join our community
+  <section id="intro-service">
+    <div class="container" id="single-price-content">
+      <div class="row">
+        <div class="box-content col-lg-12" id="feature-box">
+          <h1>Join our community</h1>
+          <h2>30-day, hassle-free money back guarantee</h2>
+          <p>
+            Gain access to our full library of tutorials along with expert code reviews.
+            Perfect for any developers who are serious about honing their skills.
+          </p>
+        </div>
+        <div class="box-content col-lg-6" id="price-box">
+          <h3>Monthly Subscription</h3>
+          <div class="price-per-month">
+            <p class="price-text">&dollar;29</p>
+            <p class="month-text">per month</p>
+          </div>
+          <p>Full access for less than &dollar;1 a day</p>
+          <button type="button" class="btn btn-sign-up">Sign Up</button>
+        </div>
+        <div class="box-content col-lg-6" id="why-box">
+          <h3>Why Us</h3>
+          <p>
+            Tutorials by industry experts<br />
+            Peer &amp; expert code review<br />
+            Coding exercises<br />
+            Access to our GitHub repos<br />
+            Community forum<br />
+            Flashcard decks<br />
+            New videos every week<br />
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  30-day, hassle-free money back guarantee
-
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Pham Ich Anh</a>.
     </p>
   </footer>
 </body>

@@ -1,0 +1,138 @@
+
+.attribution {
+font-size: 11px;
+text-align: center;
+padding: 40px 20px 10px 20px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background-color: hsl(204, 43%, 93%);
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  color: hsl(204, 43%, 93%);
+}
+
+#intro-service {
+  padding: 7% 25%;
+}
+
+#single-price-content {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.box-content {
+  padding: 40px;
+}
+
+/* Feature box */
+#feature-box {
+  background-color: #fff;
+}
+
+#feature-box h1 {
+  font-size: 1.5rem;
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+#feature-box h2 {
+  font-size: 1.2rem;
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#feature-box p {
+  color: hsl(218, 22%, 67%);
+}
+
+/* Content box h3 */
+.box-content h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+/* Price box */
+#price-box {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.price-per-month {
+  width: 100%;
+  overflow: auto;
+}
+
+.price-per-month p {
+  display: block;
+  float: left;
+}
+
+.price-per-month .price-text {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 15px;
+}
+
+.price-per-month .month-text {
+  padding-top: 10px;
+}
+
+/* Button */
+.btn-sign-up {
+  width: 100%;
+  height: 48px;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+  color: #fff;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.btn-sign-up:hover {
+  background-color: hsl(71, 73%, 70%);
+  color: #fff;
+}
+
+/* Why box */
+#why-box {
+  background-color: hsl(179, 46%, 53%);
+}
+
+
+
+@media only screen and (max-width: 991px) {
+  /* For Mobile (max 991px) */
+  #intro-service {
+    padding: 70px 30px;
+  }
+
+  .box-content {
+    padding: 25px;
+  }
+}
+
+/*
+### Primary
+
+- Cyan: hsl(179, 62%, 43%)
+- Cyan: hsl(179, 46%, 53%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
+
+
+*/
